@@ -1,0 +1,1 @@
+class App extends Toybox.Application.AppBase { function initialize() { AppBase.initialize(); } }
