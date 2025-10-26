@@ -1,1 +1,13 @@
-<resources></resources>
+<resources>
+  <string id="app_name">CAS_UA</string>
+  <string id="label_sunrise">схід</string>
+  <string id="label_sunset">захід</string>
+  <string id="label_steps">кроки</string>
+  <string id="label_stress">стрес</string>
+  <string id="label_pressure">тис</string>
+  <string id="label_city">місто</string>
+  <string id="label_battery">батарея</string>
+  <string id="label_hr">пульс</string>
+  <string id="label_connected">з’єднано</string>
+  <string id="label_disconnected">нема зв’язку</string>
+</resources>
