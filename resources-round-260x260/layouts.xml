@@ -1,1 +1,3 @@
-<layouts></layouts>
+<layouts>
+  <layout id="root"/>
+</layouts>
