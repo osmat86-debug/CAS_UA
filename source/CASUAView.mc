@@ -484,7 +484,7 @@ class casuaView extends Ui.WatchFace {
     // --- Функції оновлення даних ---
 
     function updateAllWeatherData() {
-        var owm = Application.Storage.getValue("OpenWeatherMapCurrent") as Dictionary;
+        var owm = Storage.getValue("OpenWeatherMapCurrent") as Dictionary;
         if (owm != null) {
             if (owm["sunrise"] != null) { sunriseStr = formatTime(owm["sunrise"]); }
             if (owm["sunset"] != null) { sunsetStr = formatTime(owm["sunset"]); }
