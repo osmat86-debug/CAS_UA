@@ -1,6 +1,7 @@
 using Toybox.Background;
 using Toybox.System as Sys;
 using Toybox.Communications as Comms;
+using Toybox.Application.Storage;
 using Toybox.Application;
 import Toybox.Lang;
 
@@ -12,8 +13,8 @@ class BackgroundService extends Sys.ServiceDelegate {
     }
 
     function onTemporalEvent() {
-        var lat = Application.Storage.getValue("LastLocationLat");
-        var lon = Application.Storage.getValue("LastLocationLng");
+       var lat = Storage.getValue("LastLocationLat");
+        var lon = Storage.getValue("LastLocationLng");
 
         if (lat == null || lon == null) {
             Background.exit({});
