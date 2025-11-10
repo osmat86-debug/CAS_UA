@@ -1,0 +1,28 @@
+<!-- Цей файл має містити ТІЛЬКИ теги <strings> та <string> -->
+<strings>
+    <!-- Загальні -->
+    <string id="AppName">Casua Watchface</string>
+    <string id="SettingOff">Вимкнено</string>
+
+    <!-- Назви Налаштувань (Заголовки) -->
+    <string id="BatteryDisplayTitle">Відображення Батареї</string>
+    <string id="BarTypeTitle">Прогрес Бар</string>
+    <string id="ShowSunTitle">Показувати Схід/Захід сонця</string>
+    <string id="ShowDateTitle">Показувати Дату</string>
+    <string id="ShowPressureTitle">Показувати Тиск та Тренд</string>
+    <string id="ShowStepsTitle">Показувати Кроки (текст)</string>
+    <string id="ShowCityTitle">Показувати Назву міста</string>
+    <string id="ShowSecondsTitle">Показувати Секунди</string>
+
+    <!-- Опції для "Відображення Батареї" -->
+    <string id="SettingIcons">Іконки</string>
+    <string id="SettingPercent">Відсотки (%)</string>
+    <string id="SettingDays">Залишок (Дні)</string>
+
+    <!-- Опції для "Прогрес Бар" -->
+    <string id="BarTypeSteps">Кроки (від цілі)</string>
+    <string id="BarTypeBattery">Рівень Батареї</string>
+    <string id="BarTypeCalories">Калорії (від цілі)</string>
+    <string id="BarTypeActiveWeek">Хвилини активності (тиждень)</string>
+    <string id="BarTypeBodyBattery">Body Battery</string>
+</strings>

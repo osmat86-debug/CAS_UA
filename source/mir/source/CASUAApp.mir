@@ -1,0 +1,731 @@
+[ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [Application,1,13,24]; ]
+using Toybox.Application;
+[ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Background,2,13,23]; ]
+using Toybox.Background;
+[ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [Time,3,13,17]; ]
+using Toybox.Time;
+[ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [System,4,13,19]; @symbol_usingAlias = [Sys,4,23,26]; ]
+using Toybox.System as :Sys;
+[ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Lang,5,14,18]; ]
+import Toybox.Lang;
+[ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 7; @symbol_usingdef<0> = [Toybox,7,6,12]; @symbol_usingdef<1> = [WatchUi,7,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 10; background = true; @symbol_classdef = [casuaApp,10,6,14]; @symbol_extends<0> = [Application,10,23,34]; @symbol_extends<1> = [AppBase,10,35,42]; ]
+class casuaApp extends Application.AppBase {
+    [ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 10; ]
+    <init> {
+    }
+    [ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 10; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 13; @position = 15; @symbol_vardef = [mAppInstance,13,15,27]; ]
+    static
+    var mAppInstance = null;
+    [ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 16; @symbol_functiondef = [initialize,16,13,23]; ]
+    function initialize() as Void {
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_16_26_25_4_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 17 8 ]
+        symbol [ AppBase %tmp.2 17 8 15 ];
+        %tmp.2 = getv ? :AppBase;
+        symbol [ initialize %tmp.3 17 16 26 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 18 8 ]
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_18_8_20_8_if_stmt:
+        symbol [ Application %tmp.4 18 12 23 ];
+        %tmp.4 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.5 18 24 31 ];
+        %tmp.5 = getv %tmp.4 :Storage;
+        symbol [ getValue %tmp.6 18 32 40 ];
+        %tmp.6 = getv function %tmp.5 :getValue;
+        %tmp.7 = "PendingWebRequests";
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        %tmp.9 = null;
+        %tmp.10 = eq %tmp.8 %tmp.9;
+        bf %tmp.10 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_18_8_20_8_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_18_8_20_8_if_true:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_18_72_20_8_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 19 12 ]
+        symbol [ Application %tmp.11 19 12 23 ];
+        %tmp.11 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.12 19 24 31 ];
+        %tmp.12 = getv %tmp.11 :Storage;
+        symbol [ setValue %tmp.13 19 32 40 ];
+        %tmp.13 = getv function %tmp.12 :setValue;
+        %tmp.14 = "PendingWebRequests";
+        %tmp.15 = newd 0;
+        invoke %tmp.12 %tmp.13(%tmp.14, %tmp.15);
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_18_72_20_8_stop:
+        goto @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_18_8_20_8_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_18_8_20_8_if_end:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 23 8 ]
+        %tmp.16 = self;
+        symbol [ self %tmp.16 23 23 27 ];
+        symbol [ mAppInstance ? 23 8 20 ];
+        putv self :mAppInstance %tmp.16;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_16_26_25_4_stop:
+    }
+    [ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 28; @symbol_functiondef = [getAppInstance,28,20,34]; ]
+    static
+    function getAppInstance() {
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_28_37_30_4_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 29 8 ]
+        symbol [ mAppInstance %tmp.2 29 15 27 ];
+        %tmp.2 = getv ? :mAppInstance;
+        ret %tmp.2;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_28_37_30_4_stop:
+    }
+    [ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 33; @symbol_functiondef = [onStart,33,13,20]; @symbol_param<0> = [state,33,21,26]; ]
+    function onStart(state) {
+    }
+    [ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 34; @symbol_functiondef = [onStop,34,13,19]; @symbol_param<0> = [state,34,20,25]; ]
+    function onStop(state) {
+    }
+    [ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 36; @symbol_functiondef = [getInitialView,36,13,27]; ]
+    function getInitialView() {
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_36_30_38_4_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 37 8 ]
+        %tmp.1 = newa 1;
+        symbol [ casuaView %tmp.5 37 21 30 ];
+        %tmp.5 = getv ? :casuaView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_36_30_38_4_stop:
+    }
+    [ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 41; @symbol_functiondef = [onSettingsChanged,41,13,30]; ]
+    function onSettingsChanged() {
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_41_33_44_4_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 43 8 ]
+        symbol [ WatchUi %tmp.1 43 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.2 43 16 29 ];
+        %tmp.2 = getv function %tmp.1 :requestUpdate;
+        invoke %tmp.1 %tmp.2();
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_41_33_44_4_stop:
+    }
+    [ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 47; @symbol_functiondef = [getServiceDelegate,47,13,31]; ]
+    function getServiceDelegate() {
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_47_34_49_4_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 48 8 ]
+        %tmp.1 = newa 1;
+        symbol [ BackgroundService %tmp.5 48 21 38 ];
+        %tmp.5 = getv ? :BackgroundService;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_47_34_49_4_stop:
+    }
+    [ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 51; @symbol_functiondef = [onBackgroundData,51,13,29]; @symbol_param<0> = [data,51,30,34]; ]
+    function onBackgroundData(data) {
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_51_36_100_4_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 52 8 ]
+        [ "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_51_36_100_4_start" "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_51_36_100_4_stop" ]
+        %pending.1 = local;
+        symbol [ pending %pending.1 52 12 19 ];
+        symbol [ Application %tmp.1 52 22 33 ];
+        %tmp.1 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.2 52 34 41 ];
+        %tmp.2 = getv %tmp.1 :Storage;
+        symbol [ getValue %tmp.3 52 42 50 ];
+        %tmp.3 = getv function %tmp.2 :getValue;
+        %tmp.4 = "PendingWebRequests";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        %tmp.6 = as %tmp.5 Dictionary;
+        symbol [ Dictionary %tmp.6 52 76 86 ];
+        lputv %pending.1 %tmp.6;
+        symbol [ pending %pending.1 52 12 19 ];
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 53 8 ]
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_53_8_53_45_if_stmt:
+        %tmp.7 = lgetv %pending.1;
+        symbol [ pending %tmp.7 53 12 19 ];
+        %tmp.8 = null;
+        %tmp.9 = eq %tmp.7 %tmp.8;
+        bf %tmp.9 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_53_8_53_45_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_53_8_53_45_if_true:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_53_29_53_45_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 53 31 ]
+        %tmp.10 = newd 0;
+        lputv %pending.1 %tmp.10;
+        symbol [ pending %pending.1 53 31 38 ];
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_53_29_53_45_stop:
+        goto @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_53_8_53_45_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_53_8_53_45_if_end:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 55 8 ]
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_55_8_99_8_if_stmt:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_55_12_55_44_begin:
+        %tmp.11 = lgetv %data;
+        symbol [ data %tmp.11 55 12 16 ];
+        %tmp.12 = null;
+        %tmp.13 = ne %tmp.11 %tmp.12;
+        bf %tmp.13 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_55_8_99_8_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_55_28_55_44_true:
+        %tmp.14 = lgetv %data;
+        symbol [ data %tmp.14 55 28 32 ];
+        %tmp.15 = as %tmp.14 { (!Null) };
+        symbol [ Dictionary %tmp.17 55 44 54 ];
+        %tmp.17 = getv ? :Dictionary;
+        %tmp.18 = isa %tmp.15 %tmp.17;
+        push %tmp.18;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_55_28_55_44_end:
+        %tmp.19 = phi [%tmp.13 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_55_12_55_44_begin] [%tmp.18 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_55_28_55_44_true] [%tmp.19 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_55_28_55_44_end];
+        bf %tmp.19 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_55_8_99_8_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_55_8_99_8_if_true:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_55_56_99_8_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 56 12 ]
+        [ "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_55_56_99_8_start" "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_55_56_99_8_stop" ]
+        %keys.2 = local;
+        symbol [ keys %keys.2 56 16 20 ];
+        %tmp.20 = lgetv %data;
+        symbol [ data %tmp.20 56 23 27 ];
+        %tmp.21 = as %tmp.20 { (Dictionary) && (!Null) };
+        symbol [ keys %tmp.22 56 28 32 ];
+        %tmp.22 = getv function %tmp.21 :keys;
+        %tmp.23 = invoke %tmp.21 %tmp.22();
+        lputv %keys.2 %tmp.23;
+        symbol [ keys %keys.2 56 16 20 ];
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 57 12 ]
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_57_12_98_12_if_stmt:
+        %tmp.24 = lgetv %keys.2;
+        symbol [ keys %tmp.24 57 16 20 ];
+        symbol [ size %tmp.25 57 21 25 ];
+        %tmp.25 = getv function %tmp.24 :size;
+        %tmp.26 = invoke %tmp.24 %tmp.25();
+        %tmp.27 = 0;
+        %tmp.28 = gt %tmp.26 %tmp.27;
+        bf %tmp.28 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_57_12_98_12_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_57_12_98_12_if_true:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_57_33_98_12_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 58 16 ]
+        [ "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_57_33_98_12_start" "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_57_33_98_12_stop" ]
+        %key.3 = local;
+        symbol [ key %key.3 58 20 23 ];
+        %tmp.29 = lgetv %keys.2;
+        symbol [ keys %tmp.29 58 26 30 ];
+        %tmp.30 = 0;
+        %tmp.31 = agetv %tmp.29 %tmp.30;
+        lputv %key.3 %tmp.31;
+        symbol [ key %key.3 58 20 23 ];
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 59 16 ]
+        [ "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_57_33_98_12_start" "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_57_33_98_12_stop" ]
+        %payload.4 = local;
+        symbol [ payload %payload.4 59 20 27 ];
+        %tmp.32 = lgetv %data;
+        symbol [ data %tmp.32 59 30 34 ];
+        %tmp.33 = as %tmp.32 { (Dictionary) && (!Null) };
+        %tmp.34 = lgetv %key.3;
+        symbol [ key %tmp.34 59 35 38 ];
+        %tmp.35 = agetv %tmp.33 %tmp.34;
+        lputv %payload.4 %tmp.35;
+        symbol [ payload %payload.4 59 20 27 ];
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 61 16 ]
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_61_16_97_16_if_stmt:
+        %tmp.36 = lgetv %payload.4;
+        symbol [ payload %tmp.36 61 20 27 ];
+        symbol [ Dictionary %tmp.38 61 39 49 ];
+        %tmp.38 = getv ? :Dictionary;
+        %tmp.39 = isa %tmp.36 %tmp.38;
+        bf %tmp.39 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_61_16_97_16_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_61_16_97_16_if_true:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_61_51_97_16_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 62 20 ]
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_62_20_96_20_if_stmt:
+        %tmp.40 = lgetv %payload.4;
+        symbol [ payload %tmp.40 62 24 31 ];
+        %tmp.41 = as %tmp.40 { (Dictionary) };
+        %tmp.42 = "httpError";
+        %tmp.43 = agetv %tmp.41 %tmp.42;
+        %tmp.44 = null;
+        %tmp.45 = eq %tmp.43 %tmp.44;
+        bf %tmp.45 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_62_20_96_20_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_62_20_96_20_if_true:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_62_54_96_20_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 65 24 ]
+        [ "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_62_54_96_20_start" "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_62_54_96_20_stop" ]
+        %trend.5 = local;
+        symbol [ trend %trend.5 65 28 33 ];
+        %tmp.46 = 0;
+        lputv %trend.5 %tmp.46;
+        symbol [ trend %trend.5 65 28 33 ];
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 68 24 ]
+        [ "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_62_54_96_20_start" "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_62_54_96_20_stop" ]
+        %newPressureHPa.6 = local;
+        symbol [ newPressureHPa %newPressureHPa.6 68 28 42 ];
+        %tmp.47 = lgetv %payload.4;
+        symbol [ payload %tmp.47 68 45 52 ];
+        %tmp.48 = as %tmp.47 { (Dictionary) };
+        %tmp.49 = "pressureHPa";
+        %tmp.50 = agetv %tmp.48 %tmp.49;
+        lputv %newPressureHPa.6 %tmp.50;
+        symbol [ newPressureHPa %newPressureHPa.6 68 28 42 ];
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 70 24 ]
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_70_24_88_24_if_stmt:
+        %tmp.51 = lgetv %newPressureHPa.6;
+        symbol [ newPressureHPa %tmp.51 70 28 42 ];
+        %tmp.52 = null;
+        %tmp.53 = ne %tmp.51 %tmp.52;
+        bf %tmp.53 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_70_24_88_24_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_70_24_88_24_if_true:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_70_52_88_24_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 71 28 ]
+        [ "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_70_52_88_24_start" "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_70_52_88_24_stop" ]
+        %oldData.7 = local;
+        symbol [ oldData %oldData.7 71 32 39 ];
+        symbol [ Application %tmp.54 71 42 53 ];
+        %tmp.54 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.55 71 54 61 ];
+        %tmp.55 = getv %tmp.54 :Storage;
+        symbol [ getValue %tmp.56 71 62 70 ];
+        %tmp.56 = getv function %tmp.55 :getValue;
+        %tmp.57 = "OpenWeatherMapCurrent";
+        %tmp.58 = invoke %tmp.55 %tmp.56(%tmp.57);
+        %tmp.59 = as %tmp.58 Dictionary;
+        symbol [ Dictionary %tmp.59 71 99 109 ];
+        lputv %oldData.7 %tmp.59;
+        symbol [ oldData %oldData.7 71 32 39 ];
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 74 28 ]
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_74_28_87_28_if_stmt:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_74_32_74_77_begin:
+        %tmp.60 = lgetv %oldData.7;
+        symbol [ oldData %tmp.60 74 32 39 ];
+        %tmp.61 = null;
+        %tmp.62 = ne %tmp.60 %tmp.61;
+        bf %tmp.62 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_74_28_87_28_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_74_51_74_77_true:
+        %tmp.63 = lgetv %oldData.7;
+        symbol [ oldData %tmp.63 74 51 58 ];
+        %tmp.64 = as %tmp.63 { (!Null) };
+        %tmp.65 = "pressureHPa";
+        %tmp.66 = agetv %tmp.64 %tmp.65;
+        %tmp.67 = null;
+        %tmp.68 = ne %tmp.66 %tmp.67;
+        push %tmp.68;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_74_51_74_77_end:
+        %tmp.69 = phi [%tmp.62 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_74_32_74_77_begin] [%tmp.68 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_74_51_74_77_true] [%tmp.69 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_74_51_74_77_end];
+        bf %tmp.69 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_74_28_87_28_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_74_28_87_28_if_true:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_74_83_87_28_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 75 32 ]
+        [ "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_74_83_87_28_start" "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_74_83_87_28_stop" ]
+        %oldPressureHPa.8 = local;
+        symbol [ oldPressureHPa %oldPressureHPa.8 75 36 50 ];
+        %tmp.70 = lgetv %oldData.7;
+        symbol [ oldData %tmp.70 75 53 60 ];
+        %tmp.71 = as %tmp.70 { (!Null) };
+        %tmp.72 = "pressureHPa";
+        %tmp.73 = agetv %tmp.71 %tmp.72;
+        lputv %oldPressureHPa.8 %tmp.73;
+        symbol [ oldPressureHPa %oldPressureHPa.8 75 36 50 ];
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 78 32 ]
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_78_32_86_32_if_stmt:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_78_36_78_98_begin:
+        %tmp.74 = lgetv %oldPressureHPa.8;
+        symbol [ oldPressureHPa %tmp.74 78 36 50 ];
+        symbol [ Number %tmp.76 78 62 68 ];
+        %tmp.76 = getv ? :Number;
+        %tmp.77 = isa %tmp.74 %tmp.76;
+        bt %tmp.77 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_78_32_86_32_if_true;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_78_72_78_98_false:
+        %tmp.78 = lgetv %oldPressureHPa.8;
+        symbol [ oldPressureHPa %tmp.78 78 72 86 ];
+        %tmp.79 = as %tmp.78 { (!Number) };
+        symbol [ Float %tmp.81 78 98 103 ];
+        %tmp.81 = getv ? :Float;
+        %tmp.82 = isa %tmp.79 %tmp.81;
+        push %tmp.82;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_78_72_78_98_end:
+        %tmp.83 = phi [%tmp.77 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_78_36_78_98_begin] [%tmp.82 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_78_72_78_98_false] [%tmp.83 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_78_72_78_98_end];
+        bf %tmp.83 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_78_32_86_32_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_78_32_86_32_if_true:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_78_105_86_32_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 81 36 ]
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_81_36_85_36_if_stmt:
+        %tmp.84 = lgetv %newPressureHPa.6;
+        symbol [ newPressureHPa %tmp.84 81 40 54 ];
+        %tmp.85 = as %tmp.84 { (!Null) };
+        %tmp.86 = lgetv %oldPressureHPa.8;
+        symbol [ oldPressureHPa %tmp.86 81 58 72 ];
+        %tmp.87 = as %tmp.86 { (Number || Float) };
+        symbol [ toFloat %tmp.88 81 73 80 ];
+        %tmp.88 = getv function %tmp.87 :toFloat;
+        %tmp.89 = invoke %tmp.87 %tmp.88();
+        %tmp.90 = 0.1;
+        %tmp.91 = add %tmp.89 %tmp.90;
+        %tmp.92 = gt %tmp.85 %tmp.91;
+        bf %tmp.92 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_81_36_85_36_if_false;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_81_36_85_36_if_true:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_81_91_83_36_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 82 40 ]
+        %tmp.93 = 1;
+        lputv %trend.5 %tmp.93;
+        symbol [ trend %trend.5 82 40 45 ];
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_81_91_83_36_stop:
+        goto @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_81_36_85_36_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_81_36_85_36_if_false:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 83 43 ]
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_83_43_85_36_if_stmt:
+        %tmp.94 = lgetv %newPressureHPa.6;
+        symbol [ newPressureHPa %tmp.94 83 47 61 ];
+        %tmp.95 = as %tmp.94 { (!Null) };
+        %tmp.96 = lgetv %oldPressureHPa.8;
+        symbol [ oldPressureHPa %tmp.96 83 65 79 ];
+        %tmp.97 = as %tmp.96 { (Number || Float) };
+        symbol [ toFloat %tmp.98 83 80 87 ];
+        %tmp.98 = getv function %tmp.97 :toFloat;
+        %tmp.99 = invoke %tmp.97 %tmp.98();
+        %tmp.100 = 0.1;
+        %tmp.101 = sub %tmp.99 %tmp.100;
+        %tmp.102 = lt %tmp.95 %tmp.101;
+        bf %tmp.102 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_83_43_85_36_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_83_43_85_36_if_true:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_83_98_85_36_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 84 40 ]
+        %tmp.103 = -1;
+        lputv %trend.5 %tmp.103;
+        symbol [ trend %trend.5 84 40 45 ];
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_83_98_85_36_stop:
+        goto @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_83_43_85_36_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_83_43_85_36_if_end:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_81_36_85_36_if_end:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_78_105_86_32_stop:
+        goto @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_78_32_86_32_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_78_32_86_32_if_end:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_74_83_87_28_stop:
+        goto @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_74_28_87_28_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_74_28_87_28_if_end:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_70_52_88_24_stop:
+        goto @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_70_24_88_24_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_70_24_88_24_if_end:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 89 24 ]
+        %tmp.104 = lgetv %payload.4;
+        symbol [ payload %tmp.104 89 24 31 ];
+        %tmp.105 = as %tmp.104 { (Dictionary) };
+        symbol [ put %tmp.106 89 32 35 ];
+        %tmp.106 = getv function %tmp.105 :put;
+        %tmp.107 = "pressureTrend";
+        %tmp.108 = lgetv %trend.5;
+        symbol [ trend %tmp.108 89 53 58 ];
+        invoke %tmp.105 %tmp.106(%tmp.107, %tmp.108);
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 92 24 ]
+        %tmp.109 = lgetv %pending.1;
+        symbol [ pending %tmp.109 92 24 31 ];
+        symbol [ remove %tmp.110 92 32 38 ];
+        %tmp.110 = getv function %tmp.109 :remove;
+        %tmp.111 = lgetv %key.3;
+        symbol [ key %tmp.111 92 39 42 ];
+        invoke %tmp.109 %tmp.110(%tmp.111);
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 93 24 ]
+        symbol [ Application %tmp.112 93 24 35 ];
+        %tmp.112 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.113 93 36 43 ];
+        %tmp.113 = getv %tmp.112 :Storage;
+        symbol [ setValue %tmp.114 93 44 52 ];
+        %tmp.114 = getv function %tmp.113 :setValue;
+        %tmp.115 = "PendingWebRequests";
+        %tmp.116 = lgetv %pending.1;
+        symbol [ pending %tmp.116 93 75 82 ];
+        invoke %tmp.113 %tmp.114(%tmp.115, %tmp.116);
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 94 24 ]
+        symbol [ Application %tmp.117 94 24 35 ];
+        %tmp.117 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.118 94 36 43 ];
+        %tmp.118 = getv %tmp.117 :Storage;
+        symbol [ setValue %tmp.119 94 44 52 ];
+        %tmp.119 = getv function %tmp.118 :setValue;
+        %tmp.120 = lgetv %key.3;
+        symbol [ key %tmp.120 94 53 56 ];
+        %tmp.121 = lgetv %payload.4;
+        symbol [ payload %tmp.121 94 58 65 ];
+        %tmp.122 = as %tmp.121 { (Dictionary) };
+        invoke %tmp.118 %tmp.119(%tmp.120, %tmp.122);
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 95 24 ]
+        symbol [ Application %tmp.123 95 24 35 ];
+        %tmp.123 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.124 95 36 43 ];
+        %tmp.124 = getv %tmp.123 :Storage;
+        symbol [ setValue %tmp.125 95 44 52 ];
+        %tmp.125 = getv function %tmp.124 :setValue;
+        %tmp.126 = "LastWeatherTime";
+        symbol [ Time %tmp.127 95 72 76 ];
+        %tmp.127 = getm $.Toybox.Time;
+        symbol [ now %tmp.128 95 77 80 ];
+        %tmp.128 = getv function %tmp.127 :now;
+        %tmp.129 = invoke %tmp.127 %tmp.128();
+        symbol [ value %tmp.130 95 83 88 ];
+        %tmp.130 = getv function %tmp.129 :value;
+        %tmp.131 = invoke %tmp.129 %tmp.130();
+        invoke %tmp.124 %tmp.125(%tmp.126, %tmp.131);
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_62_54_96_20_stop:
+        goto @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_62_20_96_20_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_62_20_96_20_if_end:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_61_51_97_16_stop:
+        goto @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_61_16_97_16_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_61_16_97_16_if_end:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_57_33_98_12_stop:
+        goto @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_57_12_98_12_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_57_12_98_12_if_end:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_55_56_99_8_stop:
+        goto @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_55_8_99_8_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_55_8_99_8_if_end:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_51_36_100_4_stop:
+    }
+    [ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 102; @symbol_functiondef = [checkPendingWeather,102,13,32]; @symbol_param<0> = [lat,102,33,36]; @symbol_param<1> = [lon,102,38,41]; ]
+    function checkPendingWeather(lat, lon) {
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_102_43_126_4_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 103 8 ]
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_103_8_106_8_if_stmt:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_103_12_103_34_begin:
+        %tmp.1 = lgetv %lat;
+        symbol [ lat %tmp.1 103 12 15 ];
+        %tmp.2 = null;
+        %tmp.3 = ne %tmp.1 %tmp.2;
+        bf %tmp.3 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_103_8_106_8_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_103_27_103_34_true:
+        %tmp.4 = lgetv %lon;
+        symbol [ lon %tmp.4 103 27 30 ];
+        %tmp.5 = null;
+        %tmp.6 = ne %tmp.4 %tmp.5;
+        push %tmp.6;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_103_27_103_34_end:
+        %tmp.7 = phi [%tmp.3 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_103_12_103_34_begin] [%tmp.6 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_103_27_103_34_true] [%tmp.7 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_103_27_103_34_end];
+        bf %tmp.7 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_103_8_106_8_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_103_8_106_8_if_true:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_103_40_106_8_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 104 12 ]
+        symbol [ Application %tmp.8 104 12 23 ];
+        %tmp.8 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.9 104 24 31 ];
+        %tmp.9 = getv %tmp.8 :Storage;
+        symbol [ setValue %tmp.10 104 32 40 ];
+        %tmp.10 = getv function %tmp.9 :setValue;
+        %tmp.11 = "LastLocationLat";
+        %tmp.12 = lgetv %lat;
+        symbol [ lat %tmp.12 104 60 63 ];
+        %tmp.13 = as %tmp.12 { (!Null) };
+        invoke %tmp.9 %tmp.10(%tmp.11, %tmp.13);
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 105 12 ]
+        symbol [ Application %tmp.14 105 12 23 ];
+        %tmp.14 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.15 105 24 31 ];
+        %tmp.15 = getv %tmp.14 :Storage;
+        symbol [ setValue %tmp.16 105 32 40 ];
+        %tmp.16 = getv function %tmp.15 :setValue;
+        %tmp.17 = "LastLocationLng";
+        %tmp.18 = lgetv %lon;
+        symbol [ lon %tmp.18 105 60 63 ];
+        %tmp.19 = as %tmp.18 { (!Null) };
+        invoke %tmp.15 %tmp.16(%tmp.17, %tmp.19);
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_103_40_106_8_stop:
+        goto @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_103_8_106_8_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_103_8_106_8_if_end:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 108 8 ]
+        [ "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_102_43_126_4_start" "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_102_43_126_4_stop" ]
+        %lastUpdate.1 = local;
+        symbol [ lastUpdate %lastUpdate.1 108 12 22 ];
+        symbol [ Application %tmp.20 108 25 36 ];
+        %tmp.20 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.21 108 37 44 ];
+        %tmp.21 = getv %tmp.20 :Storage;
+        symbol [ getValue %tmp.22 108 45 53 ];
+        %tmp.22 = getv function %tmp.21 :getValue;
+        %tmp.23 = "LastWeatherTime";
+        %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
+        lputv %lastUpdate.1 %tmp.24;
+        symbol [ lastUpdate %lastUpdate.1 108 12 22 ];
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 109 8 ]
+        [ "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_102_43_126_4_start" "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_102_43_126_4_stop" ]
+        %now.2 = local;
+        symbol [ now %now.2 109 12 15 ];
+        symbol [ Time %tmp.25 109 18 22 ];
+        %tmp.25 = getm $.Toybox.Time;
+        symbol [ now %tmp.26 109 23 26 ];
+        %tmp.26 = getv function %tmp.25 :now;
+        %tmp.27 = invoke %tmp.25 %tmp.26();
+        symbol [ value %tmp.28 109 29 34 ];
+        %tmp.28 = getv function %tmp.27 :value;
+        %tmp.29 = invoke %tmp.27 %tmp.28();
+        lputv %now.2 %tmp.29;
+        symbol [ now %now.2 109 12 15 ];
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 111 8 ]
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_8_125_8_if_stmt:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_12_111_90_begin:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_12_111_64_begin:
+        %tmp.30 = lgetv %lastUpdate.1;
+        symbol [ lastUpdate %tmp.30 111 12 22 ];
+        %tmp.31 = null;
+        %tmp.32 = eq %tmp.30 %tmp.31;
+        bt %tmp.32 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_8_125_8_if_true;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_34_111_64_false:
+        %tmp.33 = lgetv %lastUpdate.1;
+        symbol [ lastUpdate %tmp.33 111 36 46 ];
+        %tmp.34 = as %tmp.33 { (!Null) };
+        symbol [ Number %tmp.36 111 58 64 ];
+        %tmp.36 = getv ? :Number;
+        %tmp.37 = isa %tmp.34 %tmp.36;
+        %tmp.38 = not %tmp.37;
+        push %tmp.38;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_34_111_64_end:
+        %tmp.39 = phi [%tmp.32 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_12_111_64_begin] [%tmp.38 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_34_111_64_false] [%tmp.39 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_34_111_64_end];
+        bt %tmp.39 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_8_125_8_if_true;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_69_111_90_false:
+        %tmp.40 = lgetv %now.2;
+        symbol [ now %tmp.40 111 70 73 ];
+        %tmp.41 = lgetv %lastUpdate.1;
+        symbol [ lastUpdate %tmp.41 111 76 86 ];
+        %tmp.42 = as %tmp.41 { (Number) && (!Null) };
+        %tmp.43 = sub %tmp.40 %tmp.42;
+        %tmp.44 = 1800;
+        %tmp.45 = gt %tmp.43 %tmp.44;
+        push %tmp.45;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_69_111_90_end:
+        %tmp.46 = phi [%tmp.39 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_12_111_90_begin] [%tmp.45 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_69_111_90_false] [%tmp.46 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_69_111_90_end];
+        bf %tmp.46 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_8_125_8_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_8_125_8_if_true:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_96_125_8_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 112 12 ]
+        [ "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_96_125_8_start" "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_96_125_8_stop" ]
+        %pending.3 = local;
+        symbol [ pending %pending.3 112 16 23 ];
+        symbol [ Application %tmp.47 112 26 37 ];
+        %tmp.47 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.48 112 38 45 ];
+        %tmp.48 = getv %tmp.47 :Storage;
+        symbol [ getValue %tmp.49 112 46 54 ];
+        %tmp.49 = getv function %tmp.48 :getValue;
+        %tmp.50 = "PendingWebRequests";
+        %tmp.51 = invoke %tmp.48 %tmp.49(%tmp.50);
+        %tmp.52 = as %tmp.51 Dictionary;
+        symbol [ Dictionary %tmp.52 112 80 90 ];
+        lputv %pending.3 %tmp.52;
+        symbol [ pending %pending.3 112 16 23 ];
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 113 12 ]
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_113_12_113_49_if_stmt:
+        %tmp.53 = lgetv %pending.3;
+        symbol [ pending %tmp.53 113 16 23 ];
+        %tmp.54 = null;
+        %tmp.55 = eq %tmp.53 %tmp.54;
+        bf %tmp.55 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_113_12_113_49_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_113_12_113_49_if_true:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_113_33_113_49_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 113 35 ]
+        %tmp.56 = newd 0;
+        lputv %pending.3 %tmp.56;
+        symbol [ pending %pending.3 113 35 42 ];
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_113_33_113_49_stop:
+        goto @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_113_12_113_49_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_113_12_113_49_if_end:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 115 12 ]
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_115_12_124_12_if_stmt:
+        %tmp.57 = lgetv %pending.3;
+        symbol [ pending %tmp.57 115 16 23 ];
+        %tmp.58 = "OpenWeatherMapCurrent";
+        %tmp.59 = agetv %tmp.57 %tmp.58;
+        %tmp.60 = null;
+        %tmp.61 = eq %tmp.59 %tmp.60;
+        bf %tmp.61 @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_115_12_124_12_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_115_12_124_12_if_true:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_115_58_124_12_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 116 17 ]
+        %tmp.62 = lgetv %pending.3;
+        symbol [ pending %tmp.62 116 17 24 ];
+        %tmp.63 = true;
+        %tmp.64 = "OpenWeatherMapCurrent";
+        aputv %tmp.62 %tmp.64 %tmp.63;
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 117 17 ]
+        symbol [ Application %tmp.65 117 17 28 ];
+        %tmp.65 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.66 117 29 36 ];
+        %tmp.66 = getv %tmp.65 :Storage;
+        symbol [ setValue %tmp.67 117 37 45 ];
+        %tmp.67 = getv function %tmp.66 :setValue;
+        %tmp.68 = "PendingWebRequests";
+        %tmp.69 = lgetv %pending.3;
+        symbol [ pending %tmp.69 117 68 75 ];
+        invoke %tmp.66 %tmp.67(%tmp.68, %tmp.69);
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 118 17 ]
+        try @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_17_123_17_beginTry @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_17_123_17_endTry @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_17_123_17_catch @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_17_123_17_finally;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_17_123_17_beginTry:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_21_121_17_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 119 20 ]
+        [ "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_21_121_17_start" "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_21_121_17_stop" ]
+        %nextMoment.4 = local;
+        symbol [ nextMoment %nextMoment.4 119 24 34 ];
+        symbol [ Time %tmp.72 119 41 45 ];
+        %tmp.72 = getm $.Toybox.Time;
+        symbol [ Moment %tmp.73 119 46 52 ];
+        %tmp.73 = getv function ? %tmp.72 :Moment;
+        symbol [ Time %tmp.74 119 53 57 ];
+        %tmp.74 = getm $.Toybox.Time;
+        symbol [ now %tmp.75 119 58 61 ];
+        %tmp.75 = getv function %tmp.74 :now;
+        %tmp.76 = invoke %tmp.74 %tmp.75();
+        symbol [ value %tmp.77 119 64 69 ];
+        %tmp.77 = getv function %tmp.76 :value;
+        %tmp.78 = invoke %tmp.76 %tmp.77();
+        %tmp.79 = 1;
+        %tmp.80 = add %tmp.78 %tmp.79;
+        %tmp.70 = newc %tmp.73 (%tmp.80);
+        lputv %nextMoment.4 %tmp.70;
+        symbol [ nextMoment %nextMoment.4 119 24 34 ];
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 120 20 ]
+        symbol [ Background %tmp.81 120 20 30 ];
+        %tmp.81 = getm $.Toybox.Background;
+        symbol [ registerForTemporalEvent %tmp.82 120 31 55 ];
+        %tmp.82 = getv function %tmp.81 :registerForTemporalEvent;
+        %tmp.83 = lgetv %nextMoment.4;
+        symbol [ nextMoment %tmp.83 120 56 66 ];
+        invoke %tmp.81 %tmp.82(%tmp.83);
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_21_121_17_stop:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_17_123_17_endTry:
+        jsr @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_17_123_17_finally;
+        goto @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_17_123_17_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_17_123_17_catch:
+        %tmp.84 = exception;
+        push %tmp.84;
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 121 19 ]
+        [ "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_17_123_17_catch" "D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_121_19_123_17_end" ]
+        %e.5 = local;
+        symbol [ e %e.5 121 26 27 ];
+        %tmp.85 = dup %tmp.84;
+        lputv %e.5 %tmp.85;
+        symbol [ e %e.5 121 26 27 ];
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_121_29_123_17_start:
+[ "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc" 122 20 ]
+        symbol [ Sys %tmp.86 122 20 23 ];
+        %tmp.86 = getm $.Toybox.System;
+        symbol [ println %tmp.87 122 24 31 ];
+        %tmp.87 = getv function %tmp.86 :println;
+        %tmp.88 = "Event register error: ";
+        %tmp.89 = lgetv %e.5;
+        symbol [ e %tmp.89 122 59 60 ];
+        symbol [ getErrorMessage %tmp.90 122 61 76 ];
+        %tmp.90 = getv function %tmp.89 :getErrorMessage;
+        %tmp.91 = invoke %tmp.89 %tmp.90();
+        %tmp.92 = add %tmp.88 %tmp.91;
+        invoke %tmp.86 %tmp.87(%tmp.92);
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_121_29_123_17_stop:
+        jsr @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_17_123_17_finally;
+        pop;
+        goto @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_17_123_17_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_121_19_123_17_end:
+        try @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_17_123_17_catch @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_121_19_123_17_end @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_121_19_123_17_end @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_17_123_17_finally;
+        jsr @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_17_123_17_finally;
+        throw %tmp.84;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_17_123_17_finally:
+        jsrret;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_118_17_123_17_end:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_115_58_124_12_stop:
+        goto @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_115_12_124_12_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_115_12_124_12_if_end:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_96_125_8_stop:
+        goto @D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_8_125_8_if_end;
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_111_8_125_8_if_end:
+D__watch_face_cas_ua_CASUA_source_CASUAApp_mc_102_43_126_4_stop:
+    }
+}
+[ @file = "D:\watch face\cas_ua\CASUA\source\CASUAApp.mc"; @line = 1; ]
+<init> {
+}

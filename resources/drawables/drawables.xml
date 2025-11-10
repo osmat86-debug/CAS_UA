@@ -1,0 +1,19 @@
+<drawables>
+    <!-- Старі іконки -->
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="SunriseIcon" filename="sunrise_icon.png" />
+    <bitmap id="SunsetIcon" filename="sunset_icon.png" />
+    <bitmap id="BattCharge" filename="batt_charge.png" />
+    <bitmap id="Batt100" filename="batt_100.png" />
+    <bitmap id="Batt80" filename="batt_80.png" />
+    <bitmap id="Batt60" filename="batt_60.png" />
+    <bitmap id="Batt40" filename="batt_40.png" />
+    <bitmap id="Batt20" filename="batt_20.png" />
+    <bitmap id="PowerIcon" filename="POWER.png" />
+    <bitmap id="TrendUp" filename="trend_up.png" />
+    <bitmap id="TrendDown" filename="trend_down.png" />
+    <bitmap id="TrendStable" filename="trend_stable.png" />
+
+    <!-- НОВА ІКОНКА КРОКІВ -->
+    <bitmap id="StepsIcon" filename="steps.png" />
+</drawables>

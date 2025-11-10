@@ -1,0 +1,51 @@
+<settings>
+    <!-- Цей файл визначає структуру меню налаштувань. -->
+    <!-- Усі назви та опції посилаються на файл strings.xml. -->
+
+    <!-- Налаштування Батареї -->
+    <setting propertyKey="BatteryDisplayType" title="@Strings.BatteryDisplayTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SettingOff</listEntry>
+            <listEntry value="1">@Strings.SettingIcons</listEntry>
+            <listEntry value="2">@Strings.SettingPercent</listEntry>
+            <listEntry value="3">@Strings.SettingDays</listEntry>
+        </settingConfig>
+    </setting>
+
+    <!-- Налаштування Прогрес Бару -->
+    <setting propertyKey="BarType" title="@Strings.BarTypeTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SettingOff</listEntry>
+            <listEntry value="1">@Strings.BarTypeSteps</listEntry>
+            <listEntry value="2">@Strings.BarTypeBattery</listEntry>
+            <listEntry value="3">@Strings.BarTypeCalories</listEntry>
+            <listEntry value="4">@Strings.BarTypeActiveWeek</listEntry> 
+            <listEntry value="5">@Strings.BarTypeBodyBattery</listEntry>
+        </settingConfig>
+    </setting>
+
+    <!-- Перемикачі (Boolean) -->
+    <setting propertyKey="ShowSun" title="@Strings.ShowSunTitle">
+        <settingConfig type="boolean" />
+    </setting>
+
+    <setting propertyKey="ShowDate" title="@Strings.ShowDateTitle">
+        <settingConfig type="boolean" />
+    </setting>
+
+    <setting propertyKey="ShowPressure" title="@Strings.ShowPressureTitle">
+        <settingConfig type="boolean" />
+    </setting>
+
+    <setting propertyKey="ShowSteps" title="@Strings.ShowStepsTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    
+    <setting propertyKey="ShowCity" title="@Strings.ShowCityTitle">
+        <settingConfig type="boolean" />
+    </setting>
+
+    <setting propertyKey="ShowSeconds" title="@Strings.ShowSecondsTitle">
+        <settingConfig type="boolean" />
+    </setting>
+</settings>

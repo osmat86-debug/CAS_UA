@@ -1,0 +1,17 @@
+<resources>
+    <!-- Видимість блоків (Boolean: true/false) -->
+    <property id="ShowSun" type="boolean">true</property>
+    <property id="ShowDate" type="boolean">true</property>
+    <property id="ShowPressure" type="boolean">true</property>
+    <property id="ShowSteps" type="boolean">true</property>
+    <property id="ShowCity" type="boolean">true</property>
+    <property id="ShowSeconds" type="boolean">true</property>
+
+    <!-- Тип Прогрес Бару -->
+    <!-- 0=Вимк, 1=Кроки, 2=Батарея, 3=Калорії, 4=Хв. активності, 5=Body Battery -->
+    <property id="BarType" type="number">1</property>
+
+    <!-- Тип відображення батареї -->
+    <!-- 0=Вимкнено, 1=Іконки, 2=Відсотки, 3=Дні -->
+    <property id="BatteryDisplayType" type="number">1</property>
+</resources>

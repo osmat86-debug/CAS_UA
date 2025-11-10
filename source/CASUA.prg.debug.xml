@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="D:\watch face\cas_ua\CASUA\manifest.xml"/>
+<pcToLineNum>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="1" lineNum="8" parent="globals/BackgroundService" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="2" lineNum="10" parent="globals/casuaApp" pc="268435479" symbol="&lt;init&gt;"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="38" parent="globals/BackgroundService" pc="268435498" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="39" parent="globals/BackgroundService" pc="268435502" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="40" parent="globals/BackgroundService" pc="268435510" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="42" parent="globals/BackgroundService" pc="268435534" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="43" parent="globals/BackgroundService" pc="268435563" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="44" parent="globals/BackgroundService" pc="268435573" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="45" parent="globals/BackgroundService" pc="268435583" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="47" parent="globals/BackgroundService" pc="268435586" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="48" parent="globals/BackgroundService" pc="268435589" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="49" parent="globals/BackgroundService" pc="268435592" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="51" parent="globals/BackgroundService" pc="268435595" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="52" parent="globals/BackgroundService" pc="268435613" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="53" parent="globals/BackgroundService" pc="268435623" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="56" parent="globals/BackgroundService" pc="268435636" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="57" parent="globals/BackgroundService" pc="268435654" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="58" parent="globals/BackgroundService" pc="268435664" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="60" parent="globals/BackgroundService" pc="268435671" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="63" parent="globals/BackgroundService" pc="268435690" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="64" parent="globals/BackgroundService" pc="268435709" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="68" parent="globals/BackgroundService" pc="268435754" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="69" parent="globals/BackgroundService" pc="268435767" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="72" parent="globals/BackgroundService" pc="268435780" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="73" parent="globals/BackgroundService" pc="268435799" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="74" parent="globals/BackgroundService" pc="268435818" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="75" parent="globals/BackgroundService" pc="268435837" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="78" parent="globals/BackgroundService" pc="268435859" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="3" lineNum="81" parent="globals/BackgroundService" pc="268435877" symbol="onReceiveOWM"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="4" lineNum="84" parent="globals/BackgroundService" pc="268435910" symbol="makeWebRequest"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="4" lineNum="85" parent="globals/BackgroundService" pc="268435914" symbol="makeWebRequest"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="4" lineNum="90" parent="globals/BackgroundService" pc="268435975" symbol="makeWebRequest"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="5" lineNum="14" parent="globals/BackgroundService" pc="268436000" symbol="onTemporalEvent"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="5" lineNum="15" parent="globals/BackgroundService" pc="268436004" symbol="onTemporalEvent"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="5" lineNum="16" parent="globals/BackgroundService" pc="268436026" symbol="onTemporalEvent"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="5" lineNum="18" parent="globals/BackgroundService" pc="268436048" symbol="onTemporalEvent"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="5" lineNum="19" parent="globals/BackgroundService" pc="268436060" symbol="onTemporalEvent"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="5" lineNum="20" parent="globals/BackgroundService" pc="268436082" symbol="onTemporalEvent"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="5" lineNum="24" parent="globals/BackgroundService" pc="268436086" symbol="onTemporalEvent"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="5" lineNum="26" parent="globals/BackgroundService" pc="268436093" symbol="onTemporalEvent"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="6" lineNum="10" parent="globals/BackgroundService" pc="268436194" symbol="initialize"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\BackgroundService.mc" id="6" lineNum="11" parent="globals/BackgroundService" pc="268436196" symbol="initialize"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="7" lineNum="28" parent="globals/casuaApp" pc="268436219" symbol="getAppInstance"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="7" lineNum="29" parent="globals/casuaApp" pc="268436221" symbol="getAppInstance"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="8" lineNum="33" parent="globals/casuaApp" pc="268436230" symbol="onStart"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="9" lineNum="41" parent="globals/casuaApp" pc="268436233" symbol="onSettingsChanged"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="9" lineNum="43" parent="globals/casuaApp" pc="268436235" symbol="onSettingsChanged"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="10" lineNum="47" parent="globals/casuaApp" pc="268436252" symbol="getServiceDelegate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="10" lineNum="48" parent="globals/casuaApp" pc="268436254" symbol="getServiceDelegate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="11" lineNum="36" parent="globals/casuaApp" pc="268436291" symbol="getInitialView"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="11" lineNum="37" parent="globals/casuaApp" pc="268436293" symbol="getInitialView"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="12" lineNum="16" parent="globals/casuaApp" pc="268436330" symbol="initialize"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="12" lineNum="17" parent="globals/casuaApp" pc="268436332" symbol="initialize"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="12" lineNum="18" parent="globals/casuaApp" pc="268436350" symbol="initialize"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="12" lineNum="19" parent="globals/casuaApp" pc="268436374" symbol="initialize"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="12" lineNum="23" parent="globals/casuaApp" pc="268436404" symbol="initialize"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="51" parent="globals/casuaApp" pc="268436415" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="52" parent="globals/casuaApp" pc="268436419" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="53" parent="globals/casuaApp" pc="268436441" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="53" parent="globals/casuaApp" pc="268436447" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="55" parent="globals/casuaApp" pc="268436458" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="56" parent="globals/casuaApp" pc="268436483" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="57" parent="globals/casuaApp" pc="268436496" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="58" parent="globals/casuaApp" pc="268436516" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="59" parent="globals/casuaApp" pc="268436526" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="61" parent="globals/casuaApp" pc="268436533" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="62" parent="globals/casuaApp" pc="268436551" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="65" parent="globals/casuaApp" pc="268436563" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="68" parent="globals/casuaApp" pc="268436570" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="70" parent="globals/casuaApp" pc="268436580" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="71" parent="globals/casuaApp" pc="268436587" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="74" parent="globals/casuaApp" pc="268436609" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="75" parent="globals/casuaApp" pc="268436629" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="78" parent="globals/casuaApp" pc="268436639" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="81" parent="globals/casuaApp" pc="268436675" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="82" parent="globals/casuaApp" pc="268436698" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="83" parent="globals/casuaApp" pc="268436708" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="84" parent="globals/casuaApp" pc="268436731" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="89" parent="globals/casuaApp" pc="268436750" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="92" parent="globals/casuaApp" pc="268436769" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="93" parent="globals/casuaApp" pc="268436783" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="94" parent="globals/casuaApp" pc="268436806" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="13" lineNum="95" parent="globals/casuaApp" pc="268436826" symbol="onBackgroundData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="14" lineNum="34" parent="globals/casuaApp" pc="268436884" symbol="onStop"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="15" lineNum="102" parent="globals/casuaApp" pc="268436887" symbol="checkPendingWeather"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="15" lineNum="103" parent="globals/casuaApp" pc="268436891" symbol="checkPendingWeather"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="15" lineNum="104" parent="globals/casuaApp" pc="268436905" symbol="checkPendingWeather"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="15" lineNum="105" parent="globals/casuaApp" pc="268436928" symbol="checkPendingWeather"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="15" lineNum="108" parent="globals/casuaApp" pc="268436954" symbol="checkPendingWeather"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="15" lineNum="109" parent="globals/casuaApp" pc="268436976" symbol="checkPendingWeather"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="15" lineNum="111" parent="globals/casuaApp" pc="268437002" symbol="checkPendingWeather"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="15" lineNum="112" parent="globals/casuaApp" pc="268437041" symbol="checkPendingWeather"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="15" lineNum="113" parent="globals/casuaApp" pc="268437063" symbol="checkPendingWeather"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="15" lineNum="113" parent="globals/casuaApp" pc="268437069" symbol="checkPendingWeather"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="15" lineNum="115" parent="globals/casuaApp" pc="268437080" symbol="checkPendingWeather"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="15" lineNum="116" parent="globals/casuaApp" pc="268437092" symbol="checkPendingWeather"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="15" lineNum="117" parent="globals/casuaApp" pc="268437102" symbol="checkPendingWeather"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="15" lineNum="119" parent="globals/casuaApp" pc="268437125" symbol="checkPendingWeather"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="15" lineNum="120" parent="globals/casuaApp" pc="268437183" symbol="checkPendingWeather"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="15" lineNum="121" parent="globals/casuaApp" pc="268437207" symbol="checkPendingWeather"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAApp.mc" id="15" lineNum="122" parent="globals/casuaApp" pc="268437211" symbol="checkPendingWeather"/>
+<entry filename="d:\\watch face\\cas_ua\\CASUA\\source\\gen\\006-B3289-00\\source\\Rez.mcgen" id="16" lineNum="7" parent="globals/Rez" pc="268437263" symbol="&lt;init&gt;"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="17" lineNum="13" parent="globals/casuaView" pc="268437287" symbol="&lt;init&gt;"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="17" lineNum="46" parent="globals/casuaView" pc="268437305" symbol="&lt;init&gt;"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="17" lineNum="60" parent="globals/casuaView" pc="268437410" symbol="&lt;init&gt;"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="18" lineNum="386" parent="globals/casuaView" pc="268437443" symbol="drawPressure"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="18" lineNum="387" parent="globals/casuaView" pc="268437447" symbol="drawPressure"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="18" lineNum="388" parent="globals/casuaView" pc="268437469" symbol="drawPressure"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="18" lineNum="390" parent="globals/casuaView" pc="268437518" symbol="drawPressure"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="18" lineNum="391" parent="globals/casuaView" pc="268437521" symbol="drawPressure"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="18" lineNum="391" parent="globals/casuaView" pc="268437538" symbol="drawPressure"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="18" lineNum="392" parent="globals/casuaView" pc="268437551" symbol="drawPressure"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="18" lineNum="392" parent="globals/casuaView" pc="268437568" symbol="drawPressure"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="18" lineNum="393" parent="globals/casuaView" pc="268437581" symbol="drawPressure"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="18" lineNum="395" parent="globals/casuaView" pc="268437591" symbol="drawPressure"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="18" lineNum="396" parent="globals/casuaView" pc="268437598" symbol="drawPressure"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="19" lineNum="411" parent="globals/casuaView" pc="268437668" symbol="drawCityName"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="19" lineNum="412" parent="globals/casuaView" pc="268437670" symbol="drawCityName"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="19" lineNum="413" parent="globals/casuaView" pc="268437683" symbol="drawCityName"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="19" lineNum="414" parent="globals/casuaView" pc="268437705" symbol="drawCityName"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="20" lineNum="312" parent="globals/casuaView" pc="268437758" symbol="drawStatusInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="20" lineNum="313" parent="globals/casuaView" pc="268437762" symbol="drawStatusInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="20" lineNum="314" parent="globals/casuaView" pc="268437779" symbol="drawStatusInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="20" lineNum="315" parent="globals/casuaView" pc="268437786" symbol="drawStatusInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="20" lineNum="317" parent="globals/casuaView" pc="268437812" symbol="drawStatusInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="20" lineNum="318" parent="globals/casuaView" pc="268437817" symbol="drawStatusInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="20" lineNum="319" parent="globals/casuaView" pc="268437827" symbol="drawStatusInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="20" lineNum="320" parent="globals/casuaView" pc="268437838" symbol="drawStatusInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="20" lineNum="322" parent="globals/casuaView" pc="268437848" symbol="drawStatusInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="20" lineNum="324" parent="globals/casuaView" pc="268437855" symbol="drawStatusInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="20" lineNum="325" parent="globals/casuaView" pc="268437877" symbol="drawStatusInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="21" lineNum="227" parent="globals/casuaView" pc="268437921" symbol="drawSunInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="21" lineNum="228" parent="globals/casuaView" pc="268437923" symbol="drawSunInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="21" lineNum="229" parent="globals/casuaView" pc="268437955" symbol="drawSunInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="21" lineNum="230" parent="globals/casuaView" pc="268437987" symbol="drawSunInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="21" lineNum="231" parent="globals/casuaView" pc="268438009" symbol="drawSunInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="21" lineNum="232" parent="globals/casuaView" pc="268438055" symbol="drawSunInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="22" lineNum="328" parent="globals/casuaView" pc="268438102" symbol="drawClock"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="22" lineNum="329" parent="globals/casuaView" pc="268438106" symbol="drawClock"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="22" lineNum="330" parent="globals/casuaView" pc="268438123" symbol="drawClock"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="22" lineNum="331" parent="globals/casuaView" pc="268438211" symbol="drawClock"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="22" lineNum="332" parent="globals/casuaView" pc="268438233" symbol="drawClock"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="22" lineNum="334" parent="globals/casuaView" pc="268438276" symbol="drawClock"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="22" lineNum="335" parent="globals/casuaView" pc="268438299" symbol="drawClock"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="22" lineNum="336" parent="globals/casuaView" pc="268438323" symbol="drawClock"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="22" lineNum="338" parent="globals/casuaView" pc="268438369" symbol="drawClock"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="22" lineNum="339" parent="globals/casuaView" pc="268438382" symbol="drawClock"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="23" lineNum="235" parent="globals/casuaView" pc="268438470" symbol="drawSunIcon"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="23" lineNum="236" parent="globals/casuaView" pc="268438474" symbol="drawSunIcon"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="23" lineNum="237" parent="globals/casuaView" pc="268438500" symbol="drawSunIcon"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="23" lineNum="238" parent="globals/casuaView" pc="268438507" symbol="drawSunIcon"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="24" lineNum="96" parent="globals/casuaView" pc="268438565" symbol="onLayout"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="24" lineNum="97" parent="globals/casuaView" pc="268438567" symbol="onLayout"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="24" lineNum="98" parent="globals/casuaView" pc="268438614" symbol="onLayout"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="24" lineNum="99" parent="globals/casuaView" pc="268438661" symbol="onLayout"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="24" lineNum="101" parent="globals/casuaView" pc="268438692" symbol="onLayout"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="24" lineNum="102" parent="globals/casuaView" pc="268438739" symbol="onLayout"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="24" lineNum="109" parent="globals/casuaView" pc="268438988" symbol="onLayout"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="24" lineNum="110" parent="globals/casuaView" pc="268439035" symbol="onLayout"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="24" lineNum="111" parent="globals/casuaView" pc="268439082" symbol="onLayout"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="24" lineNum="113" parent="globals/casuaView" pc="268439129" symbol="onLayout"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="25" lineNum="400" parent="globals/casuaView" pc="268439177" symbol="drawStepsInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="25" lineNum="401" parent="globals/casuaView" pc="268439181" symbol="drawStepsInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="25" lineNum="402" parent="globals/casuaView" pc="268439198" symbol="drawStepsInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="25" lineNum="403" parent="globals/casuaView" pc="268439236" symbol="drawStepsInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="25" lineNum="404" parent="globals/casuaView" pc="268439254" symbol="drawStepsInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="25" lineNum="405" parent="globals/casuaView" pc="268439267" symbol="drawStepsInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="25" lineNum="407" parent="globals/casuaView" pc="268439354" symbol="drawStepsInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="25" lineNum="408" parent="globals/casuaView" pc="268439376" symbol="drawStepsInfo"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="26" lineNum="450" parent="globals/casuaView" pc="268439420" symbol="formatTime"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="26" lineNum="451" parent="globals/casuaView" pc="268439424" symbol="formatTime"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="26" lineNum="451" parent="globals/casuaView" pc="268439470" symbol="formatTime"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="26" lineNum="452" parent="globals/casuaView" pc="268439479" symbol="formatTime"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="26" lineNum="453" parent="globals/casuaView" pc="268439509" symbol="formatTime"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="26" lineNum="454" parent="globals/casuaView" pc="268439533" symbol="formatTime"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="122" parent="globals/casuaView" pc="268439585" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="126" parent="globals/casuaView" pc="268439589" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="127" parent="globals/casuaView" pc="268439611" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="128" parent="globals/casuaView" pc="268439629" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="130" parent="globals/casuaView" pc="268439642" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="135" parent="globals/casuaView" pc="268439655" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="136" parent="globals/casuaView" pc="268439677" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="137" parent="globals/casuaView" pc="268439695" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="139" parent="globals/casuaView" pc="268439708" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="144" parent="globals/casuaView" pc="268439721" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="145" parent="globals/casuaView" pc="268439743" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="145" parent="globals/casuaView" pc="268439761" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="146" parent="globals/casuaView" pc="268439774" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="149" parent="globals/casuaView" pc="268439784" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="150" parent="globals/casuaView" pc="268439806" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="150" parent="globals/casuaView" pc="268439824" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="151" parent="globals/casuaView" pc="268439837" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="154" parent="globals/casuaView" pc="268439847" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="155" parent="globals/casuaView" pc="268439869" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="155" parent="globals/casuaView" pc="268439887" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="156" parent="globals/casuaView" pc="268439900" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="159" parent="globals/casuaView" pc="268439910" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="160" parent="globals/casuaView" pc="268439932" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="160" parent="globals/casuaView" pc="268439950" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="161" parent="globals/casuaView" pc="268439963" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="164" parent="globals/casuaView" pc="268439973" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="165" parent="globals/casuaView" pc="268439995" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="165" parent="globals/casuaView" pc="268440013" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="166" parent="globals/casuaView" pc="268440026" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="169" parent="globals/casuaView" pc="268440036" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="170" parent="globals/casuaView" pc="268440058" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="170" parent="globals/casuaView" pc="268440076" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="171" parent="globals/casuaView" pc="268440089" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="173" parent="globals/casuaView" pc="268440105" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="174" parent="globals/casuaView" pc="268440109" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="176" parent="globals/casuaView" pc="268440142" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="177" parent="globals/casuaView" pc="268440155" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="178" parent="globals/casuaView" pc="268440165" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="179" parent="globals/casuaView" pc="268440175" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="180" parent="globals/casuaView" pc="268440185" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="181" parent="globals/casuaView" pc="268440195" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="182" parent="globals/casuaView" pc="268440205" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="27" lineNum="183" parent="globals/casuaView" pc="268440215" symbol="loadSettings"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="28" lineNum="431" parent="globals/casuaView" pc="268440241" symbol="requestSunUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="28" lineNum="432" parent="globals/casuaView" pc="268440245" symbol="requestSunUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="28" lineNum="433" parent="globals/casuaView" pc="268440262" symbol="requestSunUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="28" lineNum="434" parent="globals/casuaView" pc="268440282" symbol="requestSunUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="28" lineNum="435" parent="globals/casuaView" pc="268440301" symbol="requestSunUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="28" lineNum="436" parent="globals/casuaView" pc="268440328" symbol="requestSunUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="28" lineNum="436" parent="globals/casuaView" pc="268440338" symbol="requestSunUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="28" lineNum="437" parent="globals/casuaView" pc="268440348" symbol="requestSunUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="28" lineNum="438" parent="globals/casuaView" pc="268440384" symbol="requestSunUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="28" lineNum="441" parent="globals/casuaView" pc="268440450" symbol="requestSunUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="28" lineNum="442" parent="globals/casuaView" pc="268440467" symbol="requestSunUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="28" lineNum="442" parent="globals/casuaView" pc="268440478" symbol="requestSunUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="28" lineNum="443" parent="globals/casuaView" pc="268440503" symbol="requestSunUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="29" lineNum="192" parent="globals/casuaView" pc="268440532" symbol="onEnterSleep"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="29" lineNum="193" parent="globals/casuaView" pc="268440534" symbol="onEnterSleep"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="29" lineNum="194" parent="globals/casuaView" pc="268440544" symbol="onEnterSleep"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="344" parent="globals/casuaView" pc="268440561" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="345" parent="globals/casuaView" pc="268440565" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="347" parent="globals/casuaView" pc="268440582" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="348" parent="globals/casuaView" pc="268440599" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="349" parent="globals/casuaView" pc="268440609" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="350" parent="globals/casuaView" pc="268440619" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="351" parent="globals/casuaView" pc="268440622" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="352" parent="globals/casuaView" pc="268440632" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="353" parent="globals/casuaView" pc="268440637" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="354" parent="globals/casuaView" pc="268440650" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="354" parent="globals/casuaView" pc="268440661" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="355" parent="globals/casuaView" pc="268440674" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="355" parent="globals/casuaView" pc="268440685" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="356" parent="globals/casuaView" pc="268440698" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="356" parent="globals/casuaView" pc="268440709" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="357" parent="globals/casuaView" pc="268440722" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="357" parent="globals/casuaView" pc="268440733" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="358" parent="globals/casuaView" pc="268440746" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="360" parent="globals/casuaView" pc="268440756" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="361" parent="globals/casuaView" pc="268440763" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="364" parent="globals/casuaView" pc="268440835" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="365" parent="globals/casuaView" pc="268440852" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="366" parent="globals/casuaView" pc="268440862" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="367" parent="globals/casuaView" pc="268440886" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="368" parent="globals/casuaView" pc="268440908" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="370" parent="globals/casuaView" pc="268440954" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="371" parent="globals/casuaView" pc="268440971" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="372" parent="globals/casuaView" pc="268440981" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="373" parent="globals/casuaView" pc="268441020" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="30" lineNum="374" parent="globals/casuaView" pc="268441042" symbol="drawBattery"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="31" lineNum="378" parent="globals/casuaView" pc="268441089" symbol="drawDate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="31" lineNum="379" parent="globals/casuaView" pc="268441093" symbol="drawDate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="31" lineNum="380" parent="globals/casuaView" pc="268441130" symbol="drawDate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="31" lineNum="381" parent="globals/casuaView" pc="268441155" symbol="drawDate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="31" lineNum="382" parent="globals/casuaView" pc="268441253" symbol="drawDate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="31" lineNum="383" parent="globals/casuaView" pc="268441275" symbol="drawDate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="243" parent="globals/casuaView" pc="268441319" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="244" parent="globals/casuaView" pc="268441323" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="245" parent="globals/casuaView" pc="268441330" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="247" parent="globals/casuaView" pc="268441337" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="248" parent="globals/casuaView" pc="268441354" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="249" parent="globals/casuaView" pc="268441371" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="250" parent="globals/casuaView" pc="268441391" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="251" parent="globals/casuaView" pc="268441401" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="252" parent="globals/casuaView" pc="268441431" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="256" parent="globals/casuaView" pc="268441450" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="257" parent="globals/casuaView" pc="268441467" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="258" parent="globals/casuaView" pc="268441484" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="259" parent="globals/casuaView" pc="268441494" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="261" parent="globals/casuaView" pc="268441504" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="262" parent="globals/casuaView" pc="268441521" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="263" parent="globals/casuaView" pc="268441538" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="264" parent="globals/casuaView" pc="268441558" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="266" parent="globals/casuaView" pc="268441568" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="269" parent="globals/casuaView" pc="268441581" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="270" parent="globals/casuaView" pc="268441598" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="271" parent="globals/casuaView" pc="268441615" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="272" parent="globals/casuaView" pc="268441654" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="273" parent="globals/casuaView" pc="268441670" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="276" parent="globals/casuaView" pc="268441683" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="277" parent="globals/casuaView" pc="268441700" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="278" parent="globals/casuaView" pc="268441730" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="279" parent="globals/casuaView" pc="268441779" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="280" parent="globals/casuaView" pc="268441786" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="281" parent="globals/casuaView" pc="268441799" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="282" parent="globals/casuaView" pc="268441819" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="283" parent="globals/casuaView" pc="268441829" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="289" parent="globals/casuaView" pc="268441848" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="290" parent="globals/casuaView" pc="268441855" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="291" parent="globals/casuaView" pc="268441866" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="293" parent="globals/casuaView" pc="268441894" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="293" parent="globals/casuaView" pc="268441905" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="295" parent="globals/casuaView" pc="268441915" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="296" parent="globals/casuaView" pc="268441937" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="297" parent="globals/casuaView" pc="268441962" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="298" parent="globals/casuaView" pc="268441975" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="299" parent="globals/casuaView" pc="268441988" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="301" parent="globals/casuaView" pc="268442013" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="302" parent="globals/casuaView" pc="268442034" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="303" parent="globals/casuaView" pc="268442053" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="304" parent="globals/casuaView" pc="268442061" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="306" parent="globals/casuaView" pc="268442089" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="32" lineNum="308" parent="globals/casuaView" pc="268442114" symbol="drawProgressBar"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="33" lineNum="188" parent="globals/casuaView" pc="268442175" symbol="onExitSleep"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="33" lineNum="189" parent="globals/casuaView" pc="268442177" symbol="onExitSleep"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="34" lineNum="116" parent="globals/casuaView" pc="268442188" symbol="onShow"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="34" lineNum="117" parent="globals/casuaView" pc="268442190" symbol="onShow"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="34" lineNum="118" parent="globals/casuaView" pc="268442202" symbol="onShow"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="35" lineNum="420" parent="globals/casuaView" pc="268442215" symbol="updateAllWeatherData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="35" lineNum="421" parent="globals/casuaView" pc="268442219" symbol="updateAllWeatherData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="35" lineNum="422" parent="globals/casuaView" pc="268442241" symbol="updateAllWeatherData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="35" lineNum="423" parent="globals/casuaView" pc="268442248" symbol="updateAllWeatherData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="35" lineNum="423" parent="globals/casuaView" pc="268442261" symbol="updateAllWeatherData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="35" lineNum="424" parent="globals/casuaView" pc="268442291" symbol="updateAllWeatherData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="35" lineNum="424" parent="globals/casuaView" pc="268442304" symbol="updateAllWeatherData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="35" lineNum="425" parent="globals/casuaView" pc="268442334" symbol="updateAllWeatherData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="35" lineNum="425" parent="globals/casuaView" pc="268442347" symbol="updateAllWeatherData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="35" lineNum="426" parent="globals/casuaView" pc="268442380" symbol="updateAllWeatherData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="35" lineNum="426" parent="globals/casuaView" pc="268442393" symbol="updateAllWeatherData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="35" lineNum="427" parent="globals/casuaView" pc="268442412" symbol="updateAllWeatherData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="35" lineNum="427" parent="globals/casuaView" pc="268442425" symbol="updateAllWeatherData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="35" lineNum="427" parent="globals/casuaView" pc="268442444" symbol="updateAllWeatherData"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="36" lineNum="91" parent="globals/casuaView" pc="268442461" symbol="initialize"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="36" lineNum="92" parent="globals/casuaView" pc="268442463" symbol="initialize"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="36" lineNum="93" parent="globals/casuaView" pc="268442485" symbol="initialize"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="197" parent="globals/casuaView" pc="268442496" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="198" parent="globals/casuaView" pc="268442498" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="199" parent="globals/casuaView" pc="268442520" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="203" parent="globals/casuaView" pc="268442532" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="205" parent="globals/casuaView" pc="268442544" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="208" parent="globals/casuaView" pc="268442556" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="208" parent="globals/casuaView" pc="268442567" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="211" parent="globals/casuaView" pc="268442584" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="211" parent="globals/casuaView" pc="268442601" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="213" parent="globals/casuaView" pc="268442618" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="214" parent="globals/casuaView" pc="268442632" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="217" parent="globals/casuaView" pc="268442646" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="217" parent="globals/casuaView" pc="268442663" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="219" parent="globals/casuaView" pc="268442680" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="219" parent="globals/casuaView" pc="268442691" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="220" parent="globals/casuaView" pc="268442708" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="220" parent="globals/casuaView" pc="268442719" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="221" parent="globals/casuaView" pc="268442736" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="221" parent="globals/casuaView" pc="268442747" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="222" parent="globals/casuaView" pc="268442764" symbol="onUpdate"/>
+<entry filename="D:\\watch face\\cas_ua\\CASUA\\source\\CASUAView.mc" id="37" lineNum="222" parent="globals/casuaView" pc="268442775" symbol="onUpdate"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="51" symbol="pShowSeconds"/>
+<entry field="true" id="98" symbol="trendUpIcon"/>
+<entry field="true" id="123" symbol="SettingIcons"/>
+<entry id="10" method="true" symbol="checkPendingWeather"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="30" method="true" symbol="drawDate"/>
+<entry id="11" method="true" symbol="getAppInstance"/>
+<entry id="29" method="true" symbol="drawClock"/>
+<entry field="true" id="47" symbol="pBatteryDisplayType"/>
+<entry field="true" id="127" symbol="ShowDateTitle"/>
+<entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry field="true" id="95" symbol="timeY"/>
+<entry field="true" id="94" symbol="timeX"/>
+<entry field="true" id="107" symbol="PowerIcon"/>
+<entry field="true" id="130" symbol="ShowStepsTitle"/>
+<entry field="true" id="65" symbol="srIconY"/>
+<entry field="true" id="64" symbol="srIconX"/>
+<entry field="true" id="45" symbol="noSecondsIcon"/>
+<entry field="true" id="76" symbol="stepBarFillColor"/>
+<entry id="60" method="true" symbol="requestSunUpdate"/>
+<entry id="33" method="true" symbol="drawStatusInfo"/>
+<entry field="true" id="117" symbol="BarTypeBodyBattery"/>
+<entry id="35" method="true" symbol="drawSunIcon"/>
+<entry id="8391839" method="true" symbol="getBodyBatteryHistory"/>
+<entry field="true" id="25" symbol="dateY"/>
+<entry field="true" id="24" symbol="dateX"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="85" symbol="stepsIconY"/>
+<entry field="true" id="84" symbol="stepsIconX"/>
+<entry field="true" id="50" symbol="pShowPressure"/>
+<entry field="true" id="100" symbol="Batt100"/>
+<entry id="6" object="true" symbol="BackgroundService"/>
+<entry field="true" id="114" symbol="AppName"/>
+<entry id="8388633" module="true" symbol="ActivityMonitor"/>
+<entry field="true" id="96" symbol="trendDownIcon"/>
+<entry id="4" module="true" symbol="globals/Rez/Strings"/>
+<entry field="true" id="75" symbol="stepBarEmptyColor"/>
+<entry id="37" method="true" symbol="formatTime"/>
+<entry id="8389594" symbol="headers"/>
+<entry field="true" id="77" symbol="stepBarHeight"/>
+<entry field="true" id="121" symbol="BatteryDisplayTitle"/>
+<entry field="true" id="122" symbol="SettingDays"/>
+<entry field="true" id="126" symbol="ShowCityTitle"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry field="true" id="67" symbol="srTextY"/>
+<entry field="true" id="66" symbol="srTextX"/>
+<entry field="true" id="129" symbol="ShowSecondsTitle"/>
+<entry field="true" id="57" symbol="pressureTextY"/>
+<entry field="true" id="56" symbol="pressureTextX"/>
+<entry field="true" id="17" symbol="battTextFont"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="118" symbol="BarTypeCalories"/>
+<entry id="8390148" method="true" symbol="onTemporalEvent"/>
+<entry id="132" symbol="lowPowerMode"/>
+<entry field="true" id="88" symbol="stepsTextY"/>
+<entry field="true" id="87" symbol="stepsTextX"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="108" symbol="StepsIcon"/>
+<entry field="true" id="90" symbol="sunriseStr"/>
+<entry field="true" id="115" symbol="BarTypeActiveWeek"/>
+<entry field="true" id="125" symbol="SettingPercent"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry field="true" id="91" symbol="sunsetIcon"/>
+<entry id="8390169" method="true" symbol="getServiceDelegate"/>
+<entry field="true" id="16" symbol="battIcons"/>
+<entry field="true" id="15" symbol="battIconY"/>
+<entry field="true" id="14" symbol="battIconX"/>
+<entry field="true" id="112" symbol="TrendStable"/>
+<entry id="27" method="true" symbol="drawBattery"/>
+<entry id="28" method="true" symbol="drawCityName"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="26" symbol="dayOfWeekStrings"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry field="true" id="41" symbol="mPressureTrend"/>
+<entry field="true" id="72" symbol="statusFont"/>
+<entry id="34" method="true" symbol="drawStepsInfo"/>
+<entry field="true" id="78" symbol="stepBarSegments"/>
+<entry field="true" id="120" symbol="BarTypeTitle"/>
+<entry field="true" id="128" symbol="ShowPressureTitle"/>
+<entry id="36" method="true" symbol="drawSunInfo"/>
+<entry field="true" id="104" symbol="Batt80"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="8390170" method="true" symbol="onBackgroundData"/>
+<entry field="true" id="103" symbol="Batt60"/>
+<entry id="8389809" symbol="order"/>
+<entry field="true" id="111" symbol="TrendDown"/>
+<entry field="true" id="102" symbol="Batt40"/>
+<entry field="true" id="101" symbol="Batt20"/>
+<entry id="8389844" symbol="responseType"/>
+<entry field="true" id="19" symbol="battTextY"/>
+<entry field="true" id="18" symbol="battTextX"/>
+<entry field="true" id="124" symbol="SettingOff"/>
+<entry field="true" id="48" symbol="pShowCity"/>
+<entry id="8" object="true" symbol="casuaView"/>
+<entry field="true" id="20" symbol="cityFont"/>
+<entry field="true" id="79" symbol="stepBarSpacing"/>
+<entry id="8388786" method="true" symbol="method"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry field="true" id="93" symbol="timeFont"/>
+<entry field="true" id="13" symbol="battIconCharge"/>
+<entry field="true" id="131" symbol="ShowSunTitle"/>
+<entry field="true" id="80" symbol="stepBarWidth"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="22" symbol="cityY"/>
+<entry field="true" id="21" symbol="cityX"/>
+<entry field="true" id="110" symbol="SunsetIcon"/>
+<entry field="true" id="12" symbol="mAppInstance"/>
+<entry field="true" id="61" symbol="secFont"/>
+<entry field="true" id="89" symbol="sunriseIcon"/>
+<entry field="true" id="82" symbol="stepBarY"/>
+<entry field="true" id="81" symbol="stepBarX"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="113" symbol="TrendUp"/>
+<entry field="true" id="53" symbol="pShowSun"/>
+<entry field="true" id="69" symbol="ssIconY"/>
+<entry field="true" id="68" symbol="ssIconX"/>
+<entry field="true" id="86" symbol="stepsTextFont"/>
+<entry field="true" id="106" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry field="true" id="116" symbol="BarTypeBattery"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8389835" method="true" symbol="makeWebRequest"/>
+<entry field="true" id="109" symbol="SunriseIcon"/>
+<entry field="true" id="105" symbol="BattCharge"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry field="true" id="52" symbol="pShowSteps"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="74" symbol="statusY"/>
+<entry field="true" id="73" symbol="statusX"/>
+<entry id="8390146" module="true" symbol="Background"/>
+<entry field="true" id="46" symbol="pBarType"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="59" symbol="pressureTrendIconY"/>
+<entry field="true" id="58" symbol="pressureTrendIconX"/>
+<entry field="true" id="23" symbol="dateFont"/>
+<entry id="32" method="true" symbol="drawProgressBar"/>
+<entry field="true" id="92" symbol="sunsetStr"/>
+<entry id="8389808" symbol="period"/>
+<entry id="9" method="true" symbol="onReceiveOWM"/>
+<entry id="5" module="true" symbol="globals/casuaApp/&lt;statics&gt;"/>
+<entry field="true" id="44" symbol="noSecIconY"/>
+<entry field="true" id="43" symbol="noSecIconX"/>
+<entry id="7" object="true" symbol="casuaApp"/>
+<entry field="true" id="119" symbol="BarTypeSteps"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="55" symbol="pressureTextFont"/>
+<entry id="8389781" module="true" symbol="SensorHistory"/>
+<entry field="true" id="71" symbol="ssTextY"/>
+<entry field="true" id="70" symbol="ssTextX"/>
+<entry field="true" id="54" symbol="pressureStr"/>
+<entry field="true" id="83" symbol="stepsIcon"/>
+<entry field="true" id="39" symbol="mCityName"/>
+<entry id="38" method="true" symbol="loadSettings"/>
+<entry id="8388642" module="true" symbol="Position"/>
+<entry field="true" id="97" symbol="trendStableIcon"/>
+<entry field="true" id="40" symbol="mIsSleeping"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="63" symbol="secY"/>
+<entry field="true" id="62" symbol="secX"/>
+<entry field="true" id="49" symbol="pShowDate"/>
+<entry field="true" id="42" symbol="noSecIconId"/>
+<entry id="99" method="true" symbol="updateAllWeatherData"/>
+<entry id="31" method="true" symbol="drawPressure"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435909" name="code" stackId="1" startPc="268435498"/>
+<entry arg="true" endPc="268435909" name="data" stackId="2" startPc="268435498"/>
+<entry endPc="268435908" name="result" stackId="3" startPc="268435502"/>
+<entry endPc="268435855" name="sysBlk" stackId="4" startPc="268435563"/>
+<entry endPc="268435855" name="mainBlk" stackId="5" startPc="268435563"/>
+<entry endPc="268435855" name="cityName" stackId="6" startPc="268435563"/>
+<entry endPc="268435855" name="sunrise" stackId="7" startPc="268435563"/>
+<entry endPc="268435855" name="sunset" stackId="8" startPc="268435563"/>
+<entry endPc="268435855" name="pressureMmHg" stackId="9" startPc="268435563"/>
+<entry endPc="268435750" name="pressureHPa" stackId="10" startPc="268435654"/>
+<entry arg="true" endPc="268435999" name="url" stackId="1" startPc="268435910"/>
+<entry arg="true" endPc="268435999" name="params" stackId="2" startPc="268435910"/>
+<entry arg="true" endPc="268435999" name="cb" stackId="3" startPc="268435910"/>
+<entry endPc="268435998" name="opts" stackId="4" startPc="268435914"/>
+<entry endPc="268436192" name="lat" stackId="1" startPc="268436004"/>
+<entry endPc="268436192" name="lon" stackId="2" startPc="268436004"/>
+<entry endPc="268436192" name="apiKey" stackId="3" startPc="268436004"/>
+<entry arg="true" endPc="268436883" name="data" stackId="1" startPc="268436415"/>
+<entry endPc="268436882" name="pending" stackId="2" startPc="268436419"/>
+<entry endPc="268436879" name="keys" stackId="3" startPc="268436483"/>
+<entry endPc="268436876" name="key" stackId="4" startPc="268436516"/>
+<entry endPc="268436876" name="payload" stackId="5" startPc="268436516"/>
+<entry endPc="268436870" name="trend" stackId="6" startPc="268436563"/>
+<entry endPc="268436870" name="newPressureHPa" stackId="7" startPc="268436563"/>
+<entry endPc="268436746" name="oldData" stackId="8" startPc="268436587"/>
+<entry endPc="268436743" name="oldPressureHPa" stackId="9" startPc="268436629"/>
+<entry arg="true" endPc="268437262" name="lat" stackId="1" startPc="268436887"/>
+<entry arg="true" endPc="268437262" name="lon" stackId="2" startPc="268436887"/>
+<entry endPc="268437261" name="lastUpdate" stackId="3" startPc="268436891"/>
+<entry endPc="268437261" name="now" stackId="4" startPc="268436891"/>
+<entry endPc="268437258" name="pending" stackId="5" startPc="268437041"/>
+<entry endPc="268437200" name="nextMoment" stackId="6" startPc="268437125"/>
+<entry endPc="268437250" name="e" stackId="7" startPc="268437207"/>
+<entry arg="true" endPc="268437667" name="dc" stackId="1" startPc="268437443"/>
+<entry endPc="268437666" name="trendIcon" stackId="2" startPc="268437447"/>
+<entry arg="true" endPc="268437757" name="dc" stackId="1" startPc="268437668"/>
+<entry arg="true" endPc="268437920" name="dc" stackId="1" startPc="268437758"/>
+<entry endPc="268437919" name="settings" stackId="2" startPc="268437762"/>
+<entry endPc="268437919" name="statusStr" stackId="3" startPc="268437762"/>
+<entry endPc="268437919" name="inLowPower" stackId="4" startPc="268437762"/>
+<entry arg="true" endPc="268438101" name="dc" stackId="1" startPc="268437921"/>
+<entry arg="true" endPc="268438469" name="dc" stackId="1" startPc="268438102"/>
+<entry endPc="268438468" name="clockTime" stackId="2" startPc="268438106"/>
+<entry endPc="268438468" name="timeStr" stackId="3" startPc="268438106"/>
+<entry endPc="268438365" name="secondsStr" stackId="4" startPc="268438299"/>
+<entry arg="true" endPc="268438564" name="dc" stackId="1" startPc="268438470"/>
+<entry arg="true" endPc="268438564" name="x" stackId="2" startPc="268438470"/>
+<entry arg="true" endPc="268438564" name="y" stackId="3" startPc="268438470"/>
+<entry arg="true" endPc="268438564" name="isSunrise" stackId="4" startPc="268438470"/>
+<entry endPc="268438563" name="icon" stackId="5" startPc="268438474"/>
+<entry arg="true" endPc="268439176" name="dc" stackId="1" startPc="268438565"/>
+<entry arg="true" endPc="268439419" name="dc" stackId="1" startPc="268439177"/>
+<entry endPc="268439418" name="info" stackId="2" startPc="268439181"/>
+<entry endPc="268439418" name="steps" stackId="3" startPc="268439181"/>
+<entry endPc="268439418" name="stepsStr" stackId="4" startPc="268439181"/>
+<entry arg="true" endPc="268439584" name="epoch" stackId="1" startPc="268439420"/>
+<entry endPc="268439584" name="m" stackId="2" startPc="268439424"/>
+<entry endPc="268439584" name="info" stackId="3" startPc="268439424"/>
+<entry endPc="268440098" name="batteryType" stackId="1" startPc="268439589"/>
+<entry endPc="268440098" name="barType" stackId="2" startPc="268439589"/>
+<entry endPc="268440098" name="valSun" stackId="3" startPc="268439589"/>
+<entry endPc="268440098" name="valDate" stackId="4" startPc="268439589"/>
+<entry endPc="268440098" name="valPressure" stackId="5" startPc="268439589"/>
+<entry endPc="268440098" name="valSteps" stackId="6" startPc="268439589"/>
+<entry endPc="268440098" name="valCity" stackId="7" startPc="268439589"/>
+<entry endPc="268440098" name="valSeconds" stackId="8" startPc="268439589"/>
+<entry endPc="268440234" name="e" stackId="9" startPc="268440105"/>
+<entry endPc="268440530" name="posInfo" stackId="1" startPc="268440245"/>
+<entry endPc="268440527" name="coords" stackId="2" startPc="268440282"/>
+<entry endPc="268440524" name="lat" stackId="3" startPc="268440328"/>
+<entry endPc="268440524" name="lon" stackId="4" startPc="268440328"/>
+<entry endPc="268440496" name="app" stackId="5" startPc="268440450"/>
+<entry endPc="268440513" name="e" stackId="6" startPc="268440503"/>
+<entry arg="true" endPc="268441088" name="dc" stackId="1" startPc="268440561"/>
+<entry endPc="268441087" name="stats" stackId="2" startPc="268440565"/>
+<entry endPc="268440831" name="battLevel" stackId="3" startPc="268440599"/>
+<entry endPc="268440831" name="isCharging" stackId="4" startPc="268440599"/>
+<entry endPc="268440831" name="icon" stackId="5" startPc="268440599"/>
+<entry endPc="268440831" name="icons" stackId="6" startPc="268440599"/>
+<entry endPc="268440950" name="battLevel" stackId="7" startPc="268440852"/>
+<entry endPc="268440950" name="battStr" stackId="8" startPc="268440852"/>
+<entry endPc="268441084" name="battDays" stackId="9" startPc="268440971"/>
+<entry endPc="268441084" name="battStr" stackId="10" startPc="268440971"/>
+<entry arg="true" endPc="268441318" name="dc" stackId="1" startPc="268441089"/>
+<entry endPc="268441317" name="today" stackId="2" startPc="268441093"/>
+<entry endPc="268441317" name="dayOfWeekStr" stackId="3" startPc="268441093"/>
+<entry endPc="268441317" name="dateStr" stackId="4" startPc="268441093"/>
+<entry arg="true" endPc="268442174" name="dc" stackId="1" startPc="268441319"/>
+<entry endPc="268442173" name="current" stackId="2" startPc="268441323"/>
+<entry endPc="268442173" name="goal" stackId="3" startPc="268441323"/>
+<entry endPc="268441446" name="info" stackId="4" startPc="268441354"/>
+<entry endPc="268441500" name="stats" stackId="5" startPc="268441467"/>
+<entry endPc="268441577" name="info" stackId="6" startPc="268441521"/>
+<entry endPc="268441679" name="info" stackId="7" startPc="268441598"/>
+<entry endPc="268441841" name="bbIterator" stackId="8" startPc="268441730"/>
+<entry endPc="268441838" name="lastSample" stackId="9" startPc="268441786"/>
+<entry endPc="268442173" name="progress" stackId="10" startPc="268441323"/>
+<entry endPc="268442173" name="segmentsToFill" stackId="11" startPc="268441323"/>
+<entry endPc="268442173" name="totalSpacing" stackId="12" startPc="268441323"/>
+<entry endPc="268442173" name="totalSegmentWidth" stackId="13" startPc="268441323"/>
+<entry endPc="268442173" name="segmentWidth" stackId="14" startPc="268441323"/>
+<entry endPc="268442173" name="startX" stackId="15" startPc="268441323"/>
+<entry endPc="268442173" name="i" stackId="16" startPc="268442034"/>
+<entry endPc="268442160" name="currentX" stackId="17" startPc="268442034"/>
+<entry endPc="268442459" name="owm" stackId="1" startPc="268442219"/>
+<entry arg="true" endPc="268442792" name="dc" stackId="1" startPc="268442496"/>
+</localVars>
+<deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B3289-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="background" class="casuaApp" module="globals" symbol="getServiceDelegate"/>
+<annotationEntry annotation="background" class="casuaApp" module="globals" symbol="getAppInstance"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TrendDown"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowStepsTitle"/>
+<annotationEntry annotation="background" class="casuaApp" module="globals" symbol="initialize"/>
+<annotationEntry annotation="background" class="casuaApp" module="globals" symbol="onStart"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SettingDays"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BarTypeBattery"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BarTypeTitle"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Batt40"/>
+<annotationEntry annotation="background" class="BackgroundService" module="globals" symbol="onReceiveOWM"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowSecondsTitle"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Batt20"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BarTypeCalories"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Batt100"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Batt80"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Batt60"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="SunsetIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowCityTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BatteryDisplayTitle"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TrendStable"/>
+<annotationEntry annotation="background" class="BackgroundService" module="globals" symbol="makeWebRequest"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BattCharge"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowSunTitle"/>
+<annotationEntry annotation="background" class="casuaApp" module="globals" symbol="getInitialView"/>
+<annotationEntry annotation="background" class="casuaApp" module="globals" symbol="onSettingsChanged"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BarTypeSteps"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BarTypeBodyBattery"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowPressureTitle"/>
+<annotationEntry annotation="background" class="casuaApp" module="globals" symbol="onStop"/>
+<annotationEntry annotation="background" class="casuaApp" module="globals" symbol="mAppInstance"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="PowerIcon"/>
+<annotationEntry annotation="background" class="casuaApp" module="globals" symbol="checkPendingWeather"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowDateTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SettingPercent"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="SunriseIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BarTypeActiveWeek"/>
+<annotationEntry annotation="background" class="casuaApp" module="globals" symbol="onBackgroundData"/>
+<annotationEntry annotation="background" class="BackgroundService" module="globals" symbol="initialize"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SettingIcons"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TrendUp"/>
+<annotationEntry annotation="background" class="BackgroundService" module="globals" symbol="onTemporalEvent"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="StepsIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SettingOff"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/BackgroundService" offset="134" parentId="globals" symbolId="BackgroundService" type="class"/>
+<dataEntry label="globals/casuaApp" offset="205" parentId="globals" symbolId="casuaApp" type="class"/>
+<dataEntry label="globals/casuaApp/&lt;statics&gt;" offset="308" parentId="casuaApp" symbolId="&lt;statics&gt;" type="module"/>
+<dataEntry label="globals/Rez" offset="1135" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/casuaView" offset="1182" parentId="globals" symbolId="casuaView" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="1965" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="2108" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="BackgroundService" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435497" name="&lt;init&gt;" parent="casuaApp" startPc="268435479">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/casuaApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435909" name="onReceiveOWM" parent="BackgroundService" startPc="268435498">
+<param id="code"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435999" name="makeWebRequest" parent="BackgroundService" startPc="268435910">
+<param id="url"/>
+<param id="params"/>
+<param id="cb"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436193" name="onTemporalEvent" parent="BackgroundService" startPc="268436000">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436218" name="initialize" parent="BackgroundService" startPc="268436194">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436229" name="getAppInstance" parent="casuaApp" startPc="268436219">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436232" name="onStart" parent="casuaApp" startPc="268436230">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436251" name="onSettingsChanged" parent="casuaApp" startPc="268436233">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436290" name="getServiceDelegate" parent="casuaApp" startPc="268436252">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436329" name="getInitialView" parent="casuaApp" startPc="268436291">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436414" name="initialize" parent="casuaApp" startPc="268436330">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436883" name="onBackgroundData" parent="casuaApp" startPc="268436415">
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436886" name="onStop" parent="casuaApp" startPc="268436884">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437262" name="checkPendingWeather" parent="casuaApp" startPc="268436887">
+<param id="lat"/>
+<param id="lon"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437286" name="&lt;init&gt;" parent="Rez" startPc="268437263">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437442" name="&lt;init&gt;" parent="casuaView" startPc="268437287">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437667" name="drawPressure" parent="casuaView" startPc="268437443">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437757" name="drawCityName" parent="casuaView" startPc="268437668">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437920" name="drawStatusInfo" parent="casuaView" startPc="268437758">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438101" name="drawSunInfo" parent="casuaView" startPc="268437921">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438469" name="drawClock" parent="casuaView" startPc="268438102">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438564" name="drawSunIcon" parent="casuaView" startPc="268438470">
+<param id="dc"/>
+<param id="x"/>
+<param id="y"/>
+<param id="isSunrise"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439176" name="onLayout" parent="casuaView" startPc="268438565">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439419" name="drawStepsInfo" parent="casuaView" startPc="268439177">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439584" name="formatTime" parent="casuaView" startPc="268439420">
+<param id="epoch"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440240" name="loadSettings" parent="casuaView" startPc="268439585">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440531" name="requestSunUpdate" parent="casuaView" startPc="268440241">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440560" name="onEnterSleep" parent="casuaView" startPc="268440532">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441088" name="drawBattery" parent="casuaView" startPc="268440561">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441318" name="drawDate" parent="casuaView" startPc="268441089">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442174" name="drawProgressBar" parent="casuaView" startPc="268441319">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442187" name="onExitSleep" parent="casuaView" startPc="268442175">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442214" name="onShow" parent="casuaView" startPc="268442188">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442460" name="updateAllWeatherData" parent="casuaView" startPc="268442215">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442495" name="initialize" parent="casuaView" startPc="268442461">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442792" name="onUpdate" parent="casuaView" startPc="268442496">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
