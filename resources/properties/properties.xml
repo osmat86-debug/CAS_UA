@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <!-- Видимість блоків (Boolean: true/false) -->
     <property id="ShowSun" type="boolean">true</property>
