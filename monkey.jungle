@@ -1,2 +1,5 @@
 project.manifest = manifest.xml
-resourcesPath = resources
+project.sourcePath = source
+project.resourcePath = resources
+project.output = bin
+
