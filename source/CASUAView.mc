@@ -2,10 +2,9 @@ using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 using Toybox.Time;
-// ВИПРАВЛЕНО: Імпортуємо Application, Storage ТА Properties
+// ВИПРАВЛЕНО: Імпортуємо Application та Storage для роботи з налаштуваннями
 using Toybox.Application;
 using Toybox.Application.Storage;
-using Toybox.Application.Properties; // <-- ДОДАНО
 using Toybox.Position as Position;
 using Toybox.ActivityMonitor; 
 // ДОДАНО: Потрібно для Body Battery
@@ -122,132 +121,78 @@ class casuaView extends Ui.WatchFace {
 
     // --- ФУНКЦІЯ: Завантаження налаштувань (ПОВНІСТЮ ВИПРАВЛЕНА) ---
     function loadSettings() {
-        try { // Це рядок 123
-            
-            // --- ЗАВАНТАЖЕННЯ ЧИСЛОВИХ НАЛАШТУВАНЬ (БЕЗПЕЧНО) ---
+        try {
+            pBatteryDisplayType = getNumericSetting("BatteryDisplayType", 1);
+            pBarType = getNumericSetting("BarType", 1);
 
-            // === Батарея ===
-            var batteryType = Storage.getValue("BatteryDisplayType");
-            if (batteryType == null) {
-                batteryType = Properties.getValue("BatteryDisplayType");
-            }
-            
-            if (batteryType instanceof String) {
-                pBatteryDisplayType = batteryType.toNumber();
-            } else if (batteryType instanceof Number) {
-                pBatteryDisplayType = batteryType;
-            } else {
-                pBatteryDisplayType = 1; // Значення за замовчуванням
-            }
-
-
-            // === Прогрес Бар ===
-            var barType = Storage.getValue("BarType");
-            if (barType == null) {
-                barType = Properties.getValue("BarType");
-            }
-
-            if (barType instanceof String) {
-                pBarType = barType.toNumber();
-            } else if (barType instanceof Number) {
-                pBarType = barType;
-            } else {
-                pBarType = 1; // Значення за замовчуванням
-            }
-
-            // --- ЗАВАНТАЖЕННЯ ЛОГІЧНИХ НАЛАШТУВАНЬ (БЕЗПЕЧНО) ---
-
-            // === ShowSun ===
-            var valSun = Storage.getValue("ShowSun");
-            if (valSun == null) {
-                valSun = Properties.getValue("ShowSun");
-            }
-            // (Storage може повернути 1/0, Properties повертає true/false)
-            if (valSun instanceof Boolean) {
-                pShowSun = valSun;
-            } else if (valSun instanceof Number) {
-                pShowSun = (valSun == 1);
-            } else {
-                pShowSun = true; // Значення за замовчуванням
-            }
-            
-            // === ShowDate ===
-            var valDate = Storage.getValue("ShowDate");
-            if (valDate == null) {
-                valDate = Properties.getValue("ShowDate");
-            }
-            if (valDate instanceof Boolean) {
-                pShowDate = valDate;
-            } else if (valDate instanceof Number) {
-                pShowDate = (valDate == 1);
-            } else {
-                pShowDate = true; // Значення за замовчуванням
-            }
-
-            // === ShowPressure ===
-            var valPressure = Storage.getValue("ShowPressure");
-            if (valPressure == null) {
-                valPressure = Properties.getValue("ShowPressure");
-            }
-            if (valPressure instanceof Boolean) {
-                pShowPressure = valPressure;
-            } else if (valPressure instanceof Number) {
-                pShowPressure = (valPressure == 1);
-            } else {
-                pShowPressure = true; // Значення за замовчуванням
-            }
-
-            // === ShowSteps ===
-            var valSteps = Storage.getValue("ShowSteps");
-            if (valSteps == null) {
-                valSteps = Properties.getValue("ShowSteps");
-            }
-            if (valSteps instanceof Boolean) {
-                pShowSteps = valSteps;
-            } else if (valSteps instanceof Number) {
-                pShowSteps = (valSteps == 1);
-            } else {
-                pShowSteps = true; // Значення за замовчуванням
-            }
-
-            // === ShowCity ===
-            var valCity = Storage.getValue("ShowCity");
-            if (valCity == null) {
-                valCity = Properties.getValue("ShowCity");
-            }
-            if (valCity instanceof Boolean) {
-                pShowCity = valCity;
-            } else if (valCity instanceof Number) {
-                pShowCity = (valCity == 1);
-            } else {
-                pShowCity = true; // Значення за замовчуванням
-            }
-
-            // === ShowSeconds ===
-            var valSeconds = Storage.getValue("ShowSeconds");
-            if (valSeconds == null) {
-                valSeconds = Properties.getValue("ShowSeconds");
-            }
-            if (valSeconds instanceof Boolean) {
-                pShowSeconds = valSeconds;
-            } else if (valSeconds instanceof Number) {
-                pShowSeconds = (valSeconds == 1);
-            } else {
-                pShowSeconds = true; // Значення за замовчуванням
-            }
-
+            pShowSun = getBooleanSetting("ShowSun", true);
+            pShowDate = getBooleanSetting("ShowDate", true);
+            pShowPressure = getBooleanSetting("ShowPressure", true);
+            pShowSteps = getBooleanSetting("ShowSteps", true);
+            pShowCity = getBooleanSetting("ShowCity", true);
+            pShowSeconds = getBooleanSetting("ShowSeconds", true);
         } catch (e) {
             Sys.println("loadSettings ERROR: " + e.getErrorMessage());
-            // Встановлюємо значення за замовчуванням у разі помилки
-            pBatteryDisplayType = 1;
-            pShowSun = true;
-            pShowDate = true;
-            pShowPressure = true;
-            pShowSteps = true;
-            pShowCity = true;
-            pShowSeconds = true;
-            pBarType = 1;
+            setDefaultSettings();
         }
+    }
+
+    function getNumericSetting(key, fallback) {
+        var value = getSettingValue(key);
+
+        if (value instanceof Number) {
+            return value;
+        } else if (value instanceof String) {
+            try {
+                return value.toNumber();
+            } catch (ex) {
+                Sys.println("Invalid numeric setting " + key + ": " + value);
+            }
+        }
+
+        return fallback;
+    }
+
+    function getBooleanSetting(key, fallback) {
+        var value = getSettingValue(key);
+
+        if (value instanceof Boolean) {
+            return value;
+        } else if (value instanceof Number) {
+            return value != 0;
+        } else if (value instanceof String) {
+            if (value == "true" || value == "TRUE" || value == "True" || value == "1") {
+                return true;
+            } else if (value == "false" || value == "FALSE" || value == "False" || value == "0") {
+                return false;
+            }
+        }
+
+        return fallback;
+    }
+
+    function getSettingValue(key) {
+        var value = Storage.getValue(key);
+
+        if (value == null) {
+            var app = Application.getApp();
+            if (app != null) {
+                value = app.getProperty(key);
+            }
+        }
+
+        return value;
+    }
+
+    function setDefaultSettings() {
+        pBatteryDisplayType = 1;
+        pShowSun = true;
+        pShowDate = true;
+        pShowPressure = true;
+        pShowSteps = true;
+        pShowCity = true;
+        pShowSeconds = true;
+        pBarType = 1;
     }
     // ---------------------------------------------
 
